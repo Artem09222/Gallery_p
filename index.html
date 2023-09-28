@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ex 1 -->
+    <ul class="gallery">
+        <li>
+            <img class="image" src="https://via.placeholder.com/300x200.png?text=Image+1" alt="Image 1">
+        </li>
+        <li>
+            <img class="image" src="https://via.placeholder.com/300x200.png?text=Image+2" alt="Image 2">
+        </li>
+        <li>
+            <img class="image" src="https://via.placeholder.com/300x200.png?text=Image+3" alt="Image 3">
+        </li>
+    </ul>
+    <div class="full-image-container">
+        <img class="full-image" src="" alt="Full Image">
+    </div>
+
+    <!-- ex 2 -->
+    <div id="controls">
+        <input type="number" min="0" max="100" step="1" />
+        <button type="button" data-action="render">Створити</button>
+        <button type="button" data-action="destroy">Очистити</button>
+      </div>
+      
+      <div id="boxes"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
